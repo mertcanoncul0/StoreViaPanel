@@ -5,6 +5,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// It took some work to fix the error, I changed the database and changed some settings.
 datasource db {
   provider = "postgresql"
   url      = env("POSTGRES_URL")
